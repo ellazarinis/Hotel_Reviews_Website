@@ -1,0 +1,40 @@
+.column {
+    flex-direction: column;
+    margin-right: 20px; /* Adjust margin between columns */
+    display: inline-block;
+}
+
+.row {
+    display: inline-block;
+}
+
+.header {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.row > div {
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff; 
+    border: none; 
+    cursor: pointer;
+}
